@@ -6,7 +6,8 @@
   --font-display: "Anton", sans-serif;
   --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
 
-  --color-brand-accent: #f5a623; /* Aviator Gold / Sunset */
+  /* --color-brand-accent: #f5a623; Aviator Gold / Sunset */
+  --color-brand-accent: #ddfe01; /* Ver Neon / Sunset */
   --color-brand-navy: #0b192c; /* Deep Navy */
   --color-brand-sky: #4a90e2; /* Sky Blue */
 }
