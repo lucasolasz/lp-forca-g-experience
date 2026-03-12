@@ -6,6 +6,7 @@ export default function Home() {
     <div className="min-h-screen bg-brand-navy selection:bg-brand-accent selection:text-white">
       <Nav />
       <Hero />
+      {/* <Sta */}
     </div>
   );
 }
