@@ -2,6 +2,7 @@ import { Hero } from "@/components/Hero";
 import { Nav } from "@/components/Nav";
 import { Stats } from "@/components/Stats";
 import { TheExpirience } from "@/components/TheExperience";
+import { ThePilot } from "@/components/ThePilot";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero />
       <Stats />
       <TheExpirience />
+      <ThePilot />
     </div>
   );
 }
