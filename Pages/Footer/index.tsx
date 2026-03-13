@@ -94,7 +94,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-[10px] font-mono uppercase tracking-widest text-white/30">
-          <div>© 2024 Força G Experience. Todos os direitos reservados.</div>
+          <div>{`© ${new Date().getFullYear()} Força G Experience. Todos os direitos reservados.`}</div>
           <div className="flex gap-8">
             <a href="#" className="hover:text-white">
               Termos de Uso
