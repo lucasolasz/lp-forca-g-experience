@@ -1,5 +1,6 @@
 import { Hero } from "@/Pages/Hero";
 import { Nav } from "@/Pages/Nav";
+import { Pricing } from "@/Pages/Pricing";
 import { Repertorio } from "@/Pages/Repertorio";
 import { Stats } from "@/Pages/Stats";
 import { TheExpirience } from "@/Pages/TheExperience";
@@ -14,6 +15,7 @@ export default function Home() {
       <TheExpirience />
       <ThePilot />
       <Repertorio />
+      <Pricing />
     </div>
   );
 }
