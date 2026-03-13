@@ -1,3 +1,4 @@
+import { Depoimentos } from "@/Pages/Depoimentos";
 import { Hero } from "@/Pages/Hero";
 import { Nav } from "@/Pages/Nav";
 import { Pricing } from "@/Pages/Pricing";
@@ -16,6 +17,7 @@ export default function Home() {
       <ThePilot />
       <Repertorio />
       <Pricing />
+      <Depoimentos />
     </div>
   );
 }
