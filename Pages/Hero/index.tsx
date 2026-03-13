@@ -1,6 +1,6 @@
 "use client";
 import { WHATSAPP_LINK } from "@/constants/constants";
-import { ChevronRight, Plane, Play } from "lucide-react";
+import { MessageCircle, Plane, Play } from "lucide-react";
 import { motion } from "motion/react";
 
 const Hero = () => {
@@ -81,7 +81,8 @@ const Hero = () => {
               rel="noopener noreferrer"
               className="w-full md:w-auto bg-brand-accent text-black px-10 py-5 rounded-full font-bold text-lg hover:scale-105 transition-transform flex items-center justify-center gap-2"
             >
-              Reservar Experiência <ChevronRight size={20} />
+              <MessageCircle size={20} className="text-black" /> Reservar
+              Experiência
             </a>
             <button className="w-full md:w-auto glass px-10 py-5 rounded-full font-bold text-lg flex items-center justify-center gap-2 hover:bg-white/10 transition-colors">
               <Play size={20} fill="white" /> Ver Vídeo
