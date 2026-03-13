@@ -19,12 +19,9 @@ const Stats = () => {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: i * 0.1 }}
-              className="text-center md:text-left"
+              className="text-center"
             >
-              <stat.icon
-                className="text-brand-sky mb-4 mx-auto md:mx-0"
-                size={24}
-              />
+              <stat.icon className="text-brand-sky mb-4 mx-auto" size={24} />
               <div className="text-3xl md:text-4xl font-display uppercase">
                 {stat.value}
               </div>
