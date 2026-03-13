@@ -1,4 +1,5 @@
 import { Depoimentos } from "@/Pages/Depoimentos";
+import { Faq } from "@/Pages/Faq";
 import { Hero } from "@/Pages/Hero";
 import { Nav } from "@/Pages/Nav";
 import { Pricing } from "@/Pages/Pricing";
@@ -18,6 +19,7 @@ export default function Home() {
       <Repertorio />
       <Pricing />
       <Depoimentos />
+      <Faq />
     </div>
   );
 }
