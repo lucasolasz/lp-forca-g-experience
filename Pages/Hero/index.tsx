@@ -47,8 +47,8 @@ const Hero = () => {
             DOMINE <br /> A<span className="text-brand-accent">GRAVIDADE</span>
           </h1>
           <p className="max-w-2xl mx-auto text-lg md:text-xl text-white/70 font-light mb-10">
-            Voo acrobático real com o líder da Esquadrilha da Fumaça. Loopings,
-            tunôs e a chance de assumir o manche sobre o litoral carioca.
+            Voo acrobático real com o líder da Esquadrilha CEU. Loopings, tunôs
+            e a chance de assumir o manche sobre o litoral carioca.
           </p>
           <div className="relative flex flex-col md:flex-row items-center justify-center gap-4 mt-4">
             {/* Airplane Animation pointing to the button */}

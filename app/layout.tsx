@@ -4,7 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Força G Experience",
   description:
-    "Experiência de voo acrobático com o líder da Esquadrilha da Fumaça na Barra da Tijuca, Rio de Janeiro.",
+    "Experiência de voo acrobático com o líder da Esquadrilha CEU na Barra da Tijuca, Rio de Janeiro.",
 };
 
 export default function RootLayout({

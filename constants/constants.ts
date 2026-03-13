@@ -1,7 +1,7 @@
 export const BUSINESS_INFO = {
   name: "Força G Experience",
   pilot: "Tenente-Coronel Salvatore (Alfredo Leta)",
-  pilotTitle: "Líder da Esquadrilha da Fumaça",
+  pilotTitle: "Líder da Esquadrilha CEU",
   pilotExperience: "Mais de 3.000 horas de voo",
   location: "Clube da Aeronáutica, Barra da Tijuca / Recreio, Rio de Janeiro",
   duration: {
