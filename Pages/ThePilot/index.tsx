@@ -1,3 +1,5 @@
+// import { SectionTitle } from "@/components/SectionTitle";
+import { SectionTitle } from "@/components/SectionTitle";
 import { BUSINESS_INFO } from "@/constants/constants";
 import { ShieldCheck, UserCheck } from "lucide-react";
 import Image from "next/image";
@@ -6,7 +8,7 @@ const ThePilot = () => {
   return (
     <>
       {/* The Pilot */}
-      <section id="piloto" className="py-10 bg-white/5">
+      <section id="piloto" className="py-20 bg-white/5">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid md:grid-cols-2 gap-20 items-center">
             <div className="order-2 md:order-1">
@@ -22,9 +24,9 @@ const ThePilot = () => {
               </div>
             </div>
             <div className="order-1 md:order-2">
-              {/* <SectionTitle subtitle="O Comandante">
+              <SectionTitle subtitle="O Comandante">
                 Liderança e Precisão
-              </SectionTitle> */}
+              </SectionTitle>
               <h3 className="text-3xl font-bold mb-6">
                 {BUSINESS_INFO.pilotTitle}
               </h3>

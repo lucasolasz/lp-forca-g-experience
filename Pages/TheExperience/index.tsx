@@ -1,4 +1,5 @@
 "use client";
+import { SectionTitle } from "@/components/SectionTitle";
 import { Play, Zap } from "lucide-react";
 import { motion } from "motion/react";
 import Image from "next/image";
@@ -10,9 +11,9 @@ const TheExpirience = () => {
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid md:grid-cols-2 gap-20 items-center">
             <div>
-              {/* <SectionTitle subtitle="A Experiência">
-              O Voo da Sua Vida
-            </SectionTitle> */}
+              <SectionTitle subtitle="A Experiência">
+                O Voo da Sua Vida
+              </SectionTitle>
               <div className="space-y-8">
                 <p className="text-xl text-white/70 font-light leading-relaxed">
                   Decolando do Clube da Aeronáutica na Barra da Tijuca, você
