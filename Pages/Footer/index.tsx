@@ -1,5 +1,6 @@
 import { INSTAGRAM_LINK, WHATSAPP_LINK } from "@/constants/constants";
-import { Instagram, MessageCircle, Plane } from "lucide-react";
+import { Instagram, MessageCircle } from "lucide-react";
+import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -8,7 +9,14 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-12 mb-20">
           <div className="col-span-2">
             <div className="flex items-center gap-2 mb-6">
-              <Plane className="text-brand-accent" size={32} />
+              <Image
+                src="/assets/images/logo.png" // ou .png, .jpg
+                alt="Força G Logo"
+                width={50} // Equivalente ao size={32} do Lucide
+                height={50}
+                className="object-contain" // Garante que a logo não distorça
+              />
+              {/* <Plane className="text-brand-accent" size={32} /> */}
               <span className="font-display text-2xl tracking-tighter uppercase">
                 Força G <span className="text-brand-accent">Experience</span>
               </span>

@@ -1,8 +1,9 @@
 "use client";
 import { WHATSAPP_LINK } from "@/constants/constants";
-import { ArrowRight, Menu, Plane, X } from "lucide-react";
+import { ArrowRight, Menu, X } from "lucide-react";
 import { AnimatePresence, motion } from "motion/react";
 import { useEffect, useState } from "react";
+import Image from "next/image";
 
 const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -25,7 +26,14 @@ const Nav = () => {
             animate={{ opacity: 1, x: 0 }}
             className="flex items-center gap-2"
           >
-            <Plane className="text-brand-accent" size={32} />
+            <Image
+              src="/assets/images/logo.png" // ou .png, .jpg
+              alt="Força G Logo"
+              width={50} // Equivalente ao size={32} do Lucide
+              height={50}
+              className="object-contain" // Garante que a logo não distorça
+            />
+            {/* <Plane className="text-brand-accent" size={32} /> */}
             <span className="font-display text-2xl tracking-tighter uppercase">
               Força G <span className="text-brand-accent">Experience</span>
             </span>
