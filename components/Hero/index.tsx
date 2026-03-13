@@ -81,7 +81,7 @@ const Hero = () => {
                 href={WHATSAPP_LINK}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-full md:w-auto bg-brand-accent text-white px-10 py-5 rounded-full font-bold text-lg hover:scale-105 transition-transform flex items-center justify-center gap-2"
+                className="w-full md:w-auto bg-brand-accent text-black px-10 py-5 rounded-full font-bold text-lg hover:scale-105 transition-transform flex items-center justify-center gap-2"
               >
                 Reservar Experiência <ChevronRight size={20} />
               </a>

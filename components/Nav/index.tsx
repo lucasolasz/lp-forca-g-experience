@@ -60,7 +60,7 @@ const Nav = () => {
               href={WHATSAPP_LINK}
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-brand-accent text-white px-6 py-3 rounded-full font-sans font-bold hover:scale-105 transition-transform flex items-center gap-2"
+              className="bg-brand-accent text-black px-6 py-3 rounded-full font-sans font-bold hover:scale-105 transition-transform flex items-center gap-2"
             >
               Agendar Agora <ArrowRight size={16} />
             </a>
