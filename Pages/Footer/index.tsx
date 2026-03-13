@@ -1,8 +1,4 @@
-import {
-  BUSINESS_INFO,
-  INSTAGRAM_LINK,
-  WHATSAPP_LINK,
-} from "@/constants/constants";
+import { INSTAGRAM_LINK, WHATSAPP_LINK } from "@/constants/constants";
 import { Instagram, MessageCircle, Plane } from "lucide-react";
 
 const Footer = () => {
