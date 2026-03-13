@@ -1,13 +1,13 @@
-import { Depoimentos } from "@/pages-temp/Depoimentos";
-import { Faq } from "@/pages-temp/Faq";
-import { Footer } from "@/pages-temp/Footer";
-import { Hero } from "@/pages-temp/Hero";
-import { Nav } from "@/pages-temp/Nav";
-import { Pricing } from "@/pages-temp/Pricing";
-import { Repertorio } from "@/pages-temp/Repertorio";
-import { Stats } from "@/pages-temp/Stats";
-import { TheExpirience } from "@/pages-temp/TheExperience";
-import { ThePilot } from "@/pages-temp/ThePilot";
+import { Depoimentos } from "@/pages/Depoimentos";
+import { Faq } from "@/pages/Faq";
+import { Footer } from "@/pages/Footer";
+import { Hero } from "@/pages/Hero";
+import { Nav } from "@/pages/Nav";
+import { Pricing } from "@/pages/Pricing";
+import { Repertorio } from "@/pages/Repertorio";
+import { Stats } from "@/pages/Stats";
+import { TheExpirience } from "@/pages/TheExperience";
+import { ThePilot } from "@/pages/ThePilot";
 
 export default function Home() {
   return (
