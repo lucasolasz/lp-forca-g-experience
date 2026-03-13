@@ -1,8 +1,9 @@
-import { Hero } from "@/components/Hero";
-import { Nav } from "@/components/Nav";
-import { Stats } from "@/components/Stats";
-import { TheExpirience } from "@/components/TheExperience";
-import { ThePilot } from "@/components/ThePilot";
+import { Hero } from "@/Pages/Hero";
+import { Nav } from "@/Pages/Nav";
+import { Repertorio } from "@/Pages/Repertorio";
+import { Stats } from "@/Pages/Stats";
+import { TheExpirience } from "@/Pages/TheExperience";
+import { ThePilot } from "@/Pages/ThePilot";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Stats />
       <TheExpirience />
       <ThePilot />
+      <Repertorio />
     </div>
   );
 }
