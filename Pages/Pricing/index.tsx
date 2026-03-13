@@ -4,7 +4,7 @@ import { MessageCircle, Video, Zap } from "lucide-react";
 
 const Pricing = () => {
   return (
-    <section className="py-32 relative overflow-hidden">
+    <section className="py-20 relative overflow-hidden">
       <div className="absolute inset-0 bg-brand-sky/5 -z-10" />
       <div className="max-w-4xl mx-auto px-6 text-center">
         <SectionTitle subtitle="Invista na Memória">
