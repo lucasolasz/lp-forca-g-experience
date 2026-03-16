@@ -5,7 +5,7 @@ import { motion } from "motion/react";
 
 const Hero = () => {
   return (
-    <section className="relative h-screen flex items-center justify-center overflow-hidden pt-20">
+    <section className="relative h-170 flex items-center justify-center overflow-hidden pt-20 md:h-screen">
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-linear-to-b from-brand-sky/30 via-brand-navy/80 to-brand-navy z-10" />
         <video

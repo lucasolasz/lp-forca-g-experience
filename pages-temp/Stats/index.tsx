@@ -6,7 +6,7 @@ const Stats = () => {
   return (
     <>
       {/* Stats Section */}
-      <section className="py-20 border-y border-white/5 relative overflow-hidden">
+      <section className="py-5 border-y border-white/5 relative overflow-hidden md:py-20">
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8">
           {[
             { label: "Aeronave Acrobática", value: "RV7-A", icon: Plane },
