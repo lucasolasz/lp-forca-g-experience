@@ -1,5 +1,5 @@
 "use client";
-import { Clock, MapPin, ShieldCheck, Zap } from "lucide-react";
+import { MapPin, Plane, ShieldCheck, Zap } from "lucide-react";
 import { motion } from "motion/react";
 
 const Stats = () => {
@@ -9,7 +9,7 @@ const Stats = () => {
       <section className="py-20 border-y border-white/5 relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8">
           {[
-            { label: "Duração Total", value: "50min", icon: Clock },
+            { label: "Aeronave Acrobática", value: "RV7-A", icon: Plane },
             { label: "Voo Acrobático", value: "20min", icon: Zap },
             { label: "Experiência", value: "3k+ Horas", icon: ShieldCheck },
             { label: "Localização", value: "RJ", icon: MapPin },

@@ -19,12 +19,11 @@ const Repertorio = () => {
                 0{i + 1}
               </div>
               <h4 className="text-3xl font-display uppercase mb-4 group-hover:text-brand-accent transition-colors">
-                {manobra}
+                {manobra.nomeManobra}
               </h4>
               <div className="w-full h-px bg-white/10 mb-4" />
               <p className="text-white/40 text-sm">
-                Sinta a força G positiva e negativa nesta manobra clássica da
-                aviação acrobática.
+                {manobra.descricaoManobra}
               </p>
             </motion.div>
           ))}

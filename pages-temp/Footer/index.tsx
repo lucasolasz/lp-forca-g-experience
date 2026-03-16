@@ -1,6 +1,7 @@
 import { INSTAGRAM_LINK, WHATSAPP_LINK } from "@/constants/constants";
 import { Instagram, MessageCircle } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -84,13 +85,19 @@ const Footer = () => {
             <h5 className="font-mono text-xs uppercase tracking-widest text-brand-accent mb-6">
               Localização
             </h5>
-            <p className="text-sm text-white/70 leading-relaxed">
-              Clube da Aeronáutica
-              <br />
-              Barra da Tijuca / Recreio
-              <br />
-              Rio de Janeiro - RJ
-            </p>
+            <Link
+              href="https://maps.app.goo.gl/px5hHG963kXC8qKLA?g_st=iw"
+              target="_blank"
+              className="hover:underline"
+            >
+              <p className="text-sm text-white/70 leading-relaxed">
+                Clube da Aeronáutica
+                <br />
+                Barra da Tijuca / Recreio
+                <br />
+                Rio de Janeiro - RJ
+              </p>
+            </Link>
           </div>
         </div>
         <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-[10px] font-mono uppercase tracking-widest text-white/30">

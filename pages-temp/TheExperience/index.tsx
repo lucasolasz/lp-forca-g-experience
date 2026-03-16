@@ -1,6 +1,6 @@
 "use client";
 import { SectionTitle } from "@/components/SectionTitle";
-import { Play, Zap } from "lucide-react";
+import { Camera, Plane, Play, ScrollText, User } from "lucide-react";
 import { motion } from "motion/react";
 import Image from "next/image";
 
@@ -25,18 +25,22 @@ const TheExpirience = () => {
                     {
                       title: "Briefing Técnico",
                       desc: "Instruções de segurança e manobras antes de decolar.",
+                      icon: ScrollText,
                     },
                     {
                       title: "Você no Controle",
                       desc: "Assuma o manche por alguns instantes sob supervisão.",
+                      icon: User,
                     },
                     {
                       title: "Manobras Radicais",
                       desc: "Sinta a força G em loopings e tunôs emocionantes.",
+                      icon: Plane,
                     },
                     {
                       title: "Registro em 4K",
                       desc: "Gravação completa com GoPro Fusion para suas redes.",
+                      icon: Camera,
                     },
                   ].map((item, i) => (
                     <motion.li
@@ -47,7 +51,7 @@ const TheExpirience = () => {
                       className="flex gap-4"
                     >
                       <div className="w-10 h-10 rounded-full bg-brand-accent/10 flex items-center justify-center shrink-0">
-                        <Zap className="text-brand-accent" size={18} />
+                        <item.icon className="text-brand-accent" size={18} />
                       </div>
                       <div>
                         <h4 className="font-bold text-lg">{item.title}</h4>
@@ -75,7 +79,7 @@ const TheExpirience = () => {
                         <Play fill="black" size={20} />
                       </div>
                       <div>
-                        <div className="font-bold">Assista ao Voo</div>
+                        <div className="font-bold">Assista</div>
                         <div className="text-xs text-white/50 font-mono uppercase">
                           POV: Acrobacias Reais
                         </div>

@@ -33,8 +33,8 @@ const ThePilot = () => {
               <p className="text-xl text-white/70 font-light leading-relaxed mb-8">
                 O Tenente-Coronel Salvatore (Alfredo Leta) traz a expertise da
                 elite da aviação brasileira para o seu voo. Com mais de 3.000
-                horas de voo, ele garante uma experiência que une adrenalina
-                extrema e segurança absoluta.
+                horas de voo em aeronaves de caça, ele garante uma experiência
+                que une adrenalina extrema e segurança absoluta.
               </p>
               <div className="grid grid-cols-2 gap-6">
                 <div className="glass p-6 rounded-2xl">
@@ -48,7 +48,7 @@ const ThePilot = () => {
                   <ShieldCheck className="text-brand-sky mb-2" size={24} />
                   <div className="text-2xl font-display uppercase">3.000h</div>
                   <div className="text-xs text-white/50 font-mono uppercase">
-                    De Voo Real
+                    Aeronave de Caça
                   </div>
                 </div>
               </div>

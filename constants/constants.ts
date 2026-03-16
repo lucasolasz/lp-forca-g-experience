@@ -9,7 +9,29 @@ export const BUSINESS_INFO = {
     flight: "20 minutos de voo",
   },
   aircraft: "RV-7A (Projetado para acrobacias)",
-  maneuvers: ["Looping", "Oito Cubano", "Tunô Barril", "Tunô Lento"],
+  maneuvers: [
+    {
+      nomeManobra: "Looping",
+      descricaoManobra:
+        "Giro de 360° na vertical puxando. Sinta a força G de 3 a 4 Gs'",
+    },
+    {
+      nomeManobra: "Oito Cubano",
+      descricaoManobra:
+        "Manobra em forma de oito, com rotações controladas. Sinta a dinâmica do voo em movimento contínuo.",
+    },
+    {
+      nomeManobra: "Tunô Barril",
+      descricaoManobra:
+        "Movimento em forma de barril, com rotações suaves e controle preciso. Uma experiência única de acrobacia.",
+    },
+    {
+      nomeManobra: "Tunô Lento",
+      descricaoManobra:
+        "Giro de 360° com uso dos comandos. Sinta a força G positiva e negativa na amplitude máxima.",
+    },
+  ],
+  // maneuvers: ["Looping", "Oito Cubano", "Tunô Barril", "Tunô Lento"],
   pricing: {
     base: 1200,
     withEditedVideo: 1300,
@@ -23,17 +45,17 @@ export const FAQ = [
   {
     question: "O que é o Força G Experience?",
     answer:
-      "Um voo acrobático de 20 minutos com o piloto Alfredo Leta, cheio de adrenalina, sobre a Barra da Tijuca e Recreio, decolando do Clube da Aeronáutica.",
+      "Um voo acrobático de 20 minutos com o piloto de caça Alfredo Leta, cheio de adrenalina, sobre a Barra da Tijuca, Recreio e Grumari, decolando do Clube da Aeronáutica.",
   },
   {
     question: "Posso pilotar o avião?",
     answer:
-      "Sim, você pode assumir o manche por alguns instantes, com supervisão do piloto.",
+      "Sim, você pode assumir o manche por alguns minutos, com supervisão do piloto.",
   },
   {
     question: "O voo é seguro?",
     answer:
-      "Sim, o piloto Tenente-Coronel Salvatore tem mais de 3.000 horas de voo, e o avião RV-7A é projetado especificamente para acrobacias, seguindo rigorosos protocolos de segurança.",
+      "Sim, o piloto Tenente-Coronel Salvatore tem mais de 3.000 horas de voo em aeronave de caça, e o avião RV-7A é projetado especificamente para acrobacias, seguindo rigorosos protocolos de segurança.",
   },
   {
     question: "Vou enjoar no voo?",
@@ -43,7 +65,7 @@ export const FAQ = [
   {
     question: "Como funciona o agendamento?",
     answer:
-      "Combinamos um dia e horário com pelo menos 10 dias de antecedência via WhatsApp. O pagamento é feito após o voo.",
+      "Combinamos um dia e horário com pelo menos 5 dias de antecedência via WhatsApp. Há necessidade de efetuar o pagamento de um sinal. O pagamento do restante é feito após o voo",
   },
 ];
 

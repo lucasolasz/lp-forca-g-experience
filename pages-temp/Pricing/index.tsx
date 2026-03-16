@@ -15,21 +15,21 @@ const Pricing = () => {
             <div className="text-sm font-mono uppercase tracking-widest text-white/50 mb-4">
               Voo Standard
             </div>
-            <div className="text-5xl font-display mb-2">R$ 1.200</div>
-            <div className="text-white/40 text-sm mb-8">Voo + Vídeo Bruto</div>
-            <ul className="text-left space-y-4 mb-8 text-sm text-white/70">
+            <div className="text-5xl font-display mb-2">R$ 1.350</div>
+            {/* <div className="text-white/40 text-sm mb-8">Voo</div> */}
+            <ul className="text-left space-y-4 my-16 text-sm text-white/70">
               <li className="flex items-center gap-2">
                 <Zap size={14} className="text-brand-accent" /> 20 min de voo
-                real
+                acrobático
               </li>
               <li className="flex items-center gap-2">
                 <Zap size={14} className="text-brand-accent" /> Briefing de
                 segurança
               </li>
-              <li className="flex items-center gap-2">
+              {/* <li className="flex items-center gap-2">
                 <Zap size={14} className="text-brand-accent" /> Vídeo bruto via
                 WhatsApp
-              </li>
+              </li> */}
             </ul>
           </div>
           <div className="glass p-10 rounded-3xl border-brand-accent relative overflow-hidden">
@@ -39,14 +39,14 @@ const Pricing = () => {
             <div className="text-sm font-mono uppercase tracking-widest text-brand-accent mb-4">
               Voo Premium
             </div>
-            <div className="text-5xl font-display mb-2">R$ 1.300</div>
+            <div className="text-5xl font-display mb-2">R$ 1.490</div>
             <div className="text-white/40 text-sm mb-8">
               Voo + Vídeo Editado
             </div>
             <ul className="text-left space-y-4 mb-8 text-sm text-white/70">
               <li className="flex items-center gap-2">
                 <Zap size={14} className="text-brand-accent" /> 20 min de voo
-                real
+                acrobático
               </li>
               <li className="flex items-center gap-2">
                 <Zap size={14} className="text-brand-accent" /> Briefing de
