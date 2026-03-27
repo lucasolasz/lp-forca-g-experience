@@ -7,14 +7,24 @@ const Hero = () => {
   return (
     <section className="relative h-170 flex items-center justify-center overflow-hidden pt-20 md:h-screen">
       <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-linear-to-b from-brand-sky/30 via-brand-navy/80 to-brand-navy z-10" />
+        <div className="hidden md:block absolute inset-0 bg-linear-to-b from-brand-sky/30 via-brand-navy/80 to-brand-navy z-10 " />
         <video
-          src="/assets/videos/hero_video_desktop.mp4"
+          src="/assets/videos/hero_video_desktop_2.mp4"
           autoPlay
           loop
           muted
           playsInline
-          className="absolute inset-0 w-full h-full object-cover"
+          className="absolute inset-0 w-full h-full object-cover hidden md:block"
+          //   className={`${width} ${height} ${padding}`}
+        />
+
+        <video
+          src="/assets/videos/hero_video_mobile_2.mp4"
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover block md:hidden"
           //   className={`${width} ${height} ${padding}`}
         />
 
