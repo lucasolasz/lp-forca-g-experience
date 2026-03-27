@@ -75,36 +75,42 @@ export const TESTIMONIALS = [
     role: "Empresário",
     text: "A melhor experiência da minha vida! Sentir a força G em um looping sobre o mar do Rio de Janeiro é indescritível. O Salvatore passa uma segurança incrível.",
     rating: 5,
+    image: "/assets/images/depoimentos/depoimento_1.jpg",
   },
   {
     name: "Mariana Silva",
     role: "Aventureira",
     text: "Sempre sonhei em voar como num filme. O Força G Experience superou todas as expectativas. Assumir o manche foi o ponto alto do voo!",
     rating: 5,
+    image: "/assets/images/depoimentos/depoimento_2.jpg",
   },
   {
     name: "Rafael Costa",
     role: "Engenheiro",
     text: "Profissionalismo do início ao fim. O briefing é muito claro e o voo é pura adrenalina. Vale cada centavo, recomendo o pacote com vídeo!",
     rating: 5,
+    image: "/assets/images/depoimentos/depoimento_3.jpg",
   },
   {
     name: "Juliana Mendes",
     role: "Fotógrafa",
     text: "As manobras são de tirar o fôlego e a vista lá de cima é espetacular. O vídeo editado ficou perfeito, uma lembrança para a vida toda.",
     rating: 5,
+    image: "/assets/images/depoimentos/depoimento_4.jpg",
   },
   {
     name: "Fernando Alves",
     role: "Piloto Privado",
     text: "Como piloto, posso atestar o altíssimo nível técnico do Tenente-Coronel Salvatore. Voar com um líder da Esquadrilha da Fumaça é um privilégio.",
     rating: 5,
+    image: "/assets/images/depoimentos/depoimento_5.jpg",
   },
   {
-    name: "Beatriz Rocha",
+    name: "Breno Rocha",
     role: "Estudante",
     text: "Dei de presente para o meu pai e ele chorou de emoção! A equipe foi super atenciosa e o voo foi inesquecível. Recomendo de olhos fechados.",
     rating: 5,
+    image: "/assets/images/depoimentos/depoimento_6.jpg",
   },
 ];
 
